@@ -1,3 +1,85 @@
 nav{
-    background-image: url("https://placehold.it/100%/ddd");
+    background-image: url("https://via.placeholder.com/1/000000");
+    height: 100px;
+    width: 100%;
+    
+
+}
+
+ul li{
+    display: inline-block;
+    /* margin-top: 5%; */
+    margin: 1% 0% 0 5%;
+    
+}
+ul li:first-child{
+    margin-left: 18%;
+}
+.navTag{
+    position: relative;
+    top: -26px;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+main div:first-child{
+    margin:30px 1% 30px 18%;
+
+}
+main div:nth-child(2){
+    margin-left: 18%;
+}
+main div:nth-child(2) img{
+margin-right: 30px;
+margin-bottom: 30px;}
+main div:nth-child(2) img:nth-child(2),main div:nth-child(2) img:nth-child(3){
+    margin-left: -4px;
+}
+div:nth-child(3) {
+    margin-left: 18%;
+}
+div:nth-child(3) img{
+    float: left;
+    margin-right:30px;
+    
+
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+div:nth-child(3) p {
+    display: block;
+    width: 450px;
+    margin: 1% 0 0 41%;
+    /* border: 1px solid black; */
+    height: 310px;
+    margin-bottom: 15px;
+    overflow: auto;
+    font-weight: 500;
+    font-size: 17px;
+}
+button{
+    color: #f3f3f3;
+    background-color: black;
+    width: 340px;
+    height: 45px;
+    border-radius: 13px;
+    border-color:black;
+    /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #668899;
+    transform: scale(1.2);
+    border-color: gold;
+}
+footer{
+    background-image: url("https://via.placeholder.com/1/000000");
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
 }
